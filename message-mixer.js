@@ -46,3 +46,4 @@ function displayEncryptedMessage(encryptionMethod, userInput) {
   process.stdout.write(`\nHere is your encrypted message:\n> ${output}\n`);
   process.exit();
 }
+//Just a comment
