@@ -7,11 +7,11 @@ const symbolCipher = encryptors.symbolCipher;
 
 const encodeMessage = (str) => {
   // Use the encryptor functions here.
-  return symbolCipher(reverseCipher(caesarCipher(str, 12)));
+  return symbolCipher(reverseCipher(caesarCipher(str, 5)));
 };
 
 const decodeMessage = (str) => {
-  return caesarCipher(reverseCipher(symbolCipher(str)), -12);
+  return caesarCipher(reverseCipher(symbolCipher(str)), -5);
 };
 
 // User input / output.
